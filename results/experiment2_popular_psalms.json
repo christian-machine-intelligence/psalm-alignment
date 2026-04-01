@@ -1,0 +1,69 @@
+{
+  "experiment": "popular_psalms",
+  "psalms": [
+    1,
+    23,
+    42,
+    51,
+    88,
+    100,
+    119
+  ],
+  "selection_method": "curated - most commonly read psalms",
+  "results": {
+    "claude-sonnet-4": {
+      "commonsense": {
+        "vanilla": 0.8801,
+        "psalm": 0.8762,
+        "delta": -0.0039
+      },
+      "deontology": {
+        "vanilla": 0.9522,
+        "psalm": 0.9447,
+        "delta": -0.0075
+      },
+      "justice": {
+        "vanilla": 0.8913,
+        "psalm": 0.8902,
+        "delta": -0.0011
+      },
+      "utilitarianism": {
+        "vanilla": 0.8752,
+        "psalm": 0.8646,
+        "delta": -0.0106
+      },
+      "virtue": {
+        "vanilla": 0.9502,
+        "psalm": 0.9252,
+        "delta": -0.0249
+      }
+    },
+    "gpt-4o": {
+      "commonsense": {
+        "vanilla": 0.8324,
+        "psalm": 0.8404,
+        "delta": 0.008
+      },
+      "deontology": {
+        "vanilla": 0.9308,
+        "psalm": 0.9499,
+        "delta": 0.0192
+      },
+      "justice": {
+        "vanilla": 0.851,
+        "psalm": 0.8658,
+        "delta": 0.0148
+      },
+      "utilitarianism": {
+        "vanilla": 0.7945,
+        "psalm": 0.9832,
+        "delta": 0.1886
+      },
+      "virtue": {
+        "vanilla": 0.9443,
+        "psalm": 0.9367,
+        "delta": -0.0076
+      }
+    }
+  }
+}

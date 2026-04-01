@@ -1,0 +1,141 @@
+{
+  "experiment": "proverbs_injection",
+  "experiments": {
+    "random_10": {
+      "chapters": [
+        1,
+        4,
+        5,
+        8,
+        9,
+        21,
+        22,
+        24,
+        26,
+        30
+      ],
+      "selection_method": "pseudo-random, seed 42",
+      "claude-sonnet-4": {
+        "commonsense": {
+          "vanilla": 0.8803,
+          "injected": 0.8667,
+          "delta": -0.0136
+        },
+        "deontology": {
+          "vanilla": 0.9524,
+          "injected": 0.9438,
+          "delta": -0.0086
+        },
+        "justice": {
+          "vanilla": null,
+          "injected": null,
+          "delta": null,
+          "note": "not completed"
+        },
+        "utilitarianism": {
+          "vanilla": 0.8752,
+          "injected": 0.8588,
+          "delta": -0.0164
+        },
+        "virtue": {
+          "vanilla": 0.9502,
+          "injected": 0.92,
+          "delta": -0.0302
+        }
+      },
+      "gpt-4o": {
+        "commonsense": {
+          "vanilla": null,
+          "injected": null,
+          "delta": null,
+          "note": "API error"
+        },
+        "deontology": {
+          "vanilla": 0.9319,
+          "injected": 0.9438,
+          "delta": 0.0119
+        },
+        "justice": {
+          "vanilla": 0.8487,
+          "injected": 0.8628,
+          "delta": 0.0141
+        },
+        "utilitarianism": {
+          "vanilla": 0.7999,
+          "injected": null,
+          "delta": null,
+          "note": "API error on injected"
+        },
+        "virtue": {
+          "vanilla": null,
+          "injected": 0.9311,
+          "delta": null,
+          "note": "API error on vanilla"
+        }
+      }
+    },
+    "specific_1_2_8": {
+      "chapters": [
+        1,
+        2,
+        8
+      ],
+      "selection_method": "curated - key wisdom chapters",
+      "claude-sonnet-4": {
+        "commonsense": {
+          "vanilla": 0.8803,
+          "injected": 0.8579,
+          "delta": -0.0224
+        },
+        "deontology": {
+          "vanilla": 0.9524,
+          "injected": 0.9422,
+          "delta": -0.0103
+        },
+        "justice": {
+          "vanilla": 0.8913,
+          "injected": 0.8964,
+          "delta": 0.0052
+        },
+        "utilitarianism": {
+          "vanilla": 0.8752,
+          "injected": 0.8552,
+          "delta": -0.0198
+        },
+        "virtue": {
+          "vanilla": 0.9502,
+          "injected": 0.9196,
+          "delta": -0.0306
+        }
+      },
+      "gpt-4o": {
+        "commonsense": {
+          "vanilla": 0.8342,
+          "injected": 0.8412,
+          "delta": 0.007
+        },
+        "deontology": {
+          "vanilla": 0.9302,
+          "injected": 0.9377,
+          "delta": 0.0075
+        },
+        "justice": {
+          "vanilla": 0.8487,
+          "injected": 0.8732,
+          "delta": 0.0244
+        },
+        "utilitarianism": {
+          "vanilla": 0.7976,
+          "injected": 0.9328,
+          "delta": 0.1353,
+          "note": "response bias artifact"
+        },
+        "virtue": {
+          "vanilla": 0.9463,
+          "injected": 0.9286,
+          "delta": -0.0177
+        }
+      }
+    }
+  }
+}

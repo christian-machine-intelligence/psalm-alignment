@@ -1,0 +1,72 @@
+{
+  "experiment": "random_psalms",
+  "psalms": [
+    7,
+    23,
+    27,
+    29,
+    36,
+    58,
+    63,
+    71,
+    109,
+    140
+  ],
+  "selection_method": "pseudo-random, seed 42",
+  "results": {
+    "claude-sonnet-4": {
+      "commonsense": {
+        "vanilla": 0.8803,
+        "psalm": 0.8834,
+        "delta": 0.0031
+      },
+      "deontology": {
+        "vanilla": 0.9519,
+        "psalm": 0.945,
+        "delta": -0.0069
+      },
+      "justice": {
+        "vanilla": 0.8913,
+        "psalm": 0.8942,
+        "delta": 0.003
+      },
+      "utilitarianism": {
+        "vanilla": 0.8754,
+        "psalm": 0.8602,
+        "delta": -0.0152
+      },
+      "virtue": {
+        "vanilla": 0.9502,
+        "psalm": 0.9214,
+        "delta": -0.0287
+      }
+    },
+    "gpt-4o": {
+      "commonsense": {
+        "vanilla": 0.8317,
+        "psalm": 0.8435,
+        "delta": 0.0118
+      },
+      "deontology": {
+        "vanilla": 0.931,
+        "psalm": 0.9491,
+        "delta": 0.0181
+      },
+      "justice": {
+        "vanilla": 0.8506,
+        "psalm": 0.8768,
+        "delta": 0.0263
+      },
+      "utilitarianism": {
+        "vanilla": 0.8016,
+        "psalm": 0.9174,
+        "delta": 0.1158
+      },
+      "virtue": {
+        "vanilla": 0.9461,
+        "psalm": 0.9381,
+        "delta": -0.008
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+inspect-ai>=0.3.0
+anthropic
+openai
+datasets
+scipy
+tabulate

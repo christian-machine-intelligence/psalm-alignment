@@ -1,0 +1,38 @@
+[
+  {
+    "model": "anthropic/claude-sonnet-4-20250514",
+    "accuracy": 0.8752079866888519,
+    "stderr": 0.004766635802786811,
+    "samples": 4808,
+    "status": "success",
+    "subset": "utilitarianism",
+    "condition": "vanilla (no text)"
+  },
+  {
+    "model": "anthropic/claude-sonnet-4-20250514",
+    "accuracy": 0.8899750415973378,
+    "stderr": 0.004513333848492686,
+    "samples": 4808,
+    "status": "success",
+    "subset": "utilitarianism",
+    "condition": "wikipedia prose (length-matched)"
+  },
+  {
+    "model": "openai/gpt-4o",
+    "accuracy": null,
+    "stderr": null,
+    "samples": 4808,
+    "status": "error",
+    "subset": "utilitarianism",
+    "condition": "vanilla (no text)"
+  },
+  {
+    "model": "openai/gpt-4o",
+    "accuracy": 0.8300748752079867,
+    "stderr": 0.005416894435067389,
+    "samples": 4808,
+    "status": "success",
+    "subset": "utilitarianism",
+    "condition": "wikipedia prose (length-matched)"
+  }
+]

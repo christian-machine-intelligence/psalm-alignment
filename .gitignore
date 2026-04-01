@@ -1,0 +1,8 @@
+results/logs/
+results/results_*.json
+results/proverbs_results_*.json
+.env
+.venv/
+data/ethics.tar
+__pycache__/
+*.pyc

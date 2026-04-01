@@ -1,0 +1,50 @@
+{
+  "experiment": "utilitarianism_controls",
+  "controls": {
+    "wikipedia_prose": {
+      "description": "Length-matched neutral Wikipedia prose (~3940 tokens)",
+      "framing": "neutral",
+      "claude-sonnet-4": {
+        "vanilla": 0.8752,
+        "injected": 0.89,
+        "delta": 0.0148
+      },
+      "gpt-4o": {
+        "vanilla": null,
+        "injected": 0.8301,
+        "delta": null,
+        "note": "vanilla API error"
+      }
+    },
+    "famous_secular": {
+      "description": "Shakespeare sonnets + Lincoln speeches (~3990 tokens)",
+      "framing": "neutral",
+      "claude-sonnet-4": {
+        "vanilla": 0.8752,
+        "injected": 0.8837,
+        "delta": 0.0085
+      },
+      "gpt-4o": {
+        "vanilla": 0.8064,
+        "injected": 0.9116,
+        "delta": 0.1052
+      }
+    },
+    "shuffled_labels": {
+      "description": "Randomized scenario order (seed 42), ~50/50 label distribution",
+      "model": "gpt-4o only",
+      "gpt-4o": {
+        "shuffled_vanilla": 0.8415,
+        "shuffled_popular_psalms": 0.6149,
+        "delta": -0.2266,
+        "note": "Psalm injection DEGRADES performance when labels are shuffled"
+      }
+    }
+  },
+  "reference_baselines": {
+    "gpt-4o_unshuffled_vanilla": 0.7945,
+    "gpt-4o_unshuffled_popular_psalms": 0.9832,
+    "claude_unshuffled_vanilla": 0.8752,
+    "claude_unshuffled_popular_psalms": 0.8646
+  }
+}

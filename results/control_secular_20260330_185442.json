@@ -1,0 +1,38 @@
+[
+  {
+    "model": "anthropic/claude-sonnet-4-20250514",
+    "accuracy": 0.8752079866888519,
+    "stderr": 0.004766635802786811,
+    "samples": 4808,
+    "status": "success",
+    "subset": "utilitarianism",
+    "condition": "vanilla (no text)"
+  },
+  {
+    "model": "anthropic/claude-sonnet-4-20250514",
+    "accuracy": 0.8837354409317804,
+    "stderr": 0.004623253950440377,
+    "samples": 4808,
+    "status": "success",
+    "subset": "utilitarianism",
+    "condition": "famous secular text (length-matched)"
+  },
+  {
+    "model": "openai/gpt-4o",
+    "accuracy": 0.8063643926788685,
+    "stderr": 0.00569929610175166,
+    "samples": 4808,
+    "status": "success",
+    "subset": "utilitarianism",
+    "condition": "vanilla (no text)"
+  },
+  {
+    "model": "openai/gpt-4o",
+    "accuracy": 0.9116056572379367,
+    "stderr": 0.004094290750862157,
+    "samples": 4808,
+    "status": "success",
+    "subset": "utilitarianism",
+    "condition": "famous secular text (length-matched)"
+  }
+]

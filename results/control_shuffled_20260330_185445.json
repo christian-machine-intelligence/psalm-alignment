@@ -1,0 +1,20 @@
+[
+  {
+    "model": "openai/gpt-4o",
+    "accuracy": 0.841514143094842,
+    "stderr": 0.005267310314583104,
+    "samples": 4808,
+    "status": "success",
+    "subset": "utilitarianism (shuffled)",
+    "condition": "vanilla (shuffled labels)"
+  },
+  {
+    "model": "openai/gpt-4o",
+    "accuracy": null,
+    "stderr": null,
+    "samples": 4808,
+    "status": "error",
+    "subset": "utilitarianism (shuffled)",
+    "condition": "popular psalms (shuffled labels)"
+  }
+]
